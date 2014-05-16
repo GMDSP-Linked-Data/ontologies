@@ -2,7 +2,7 @@ Ontologies
 ==========
 
 The Greater Manchester Data Synchronization Programme has defined various schemas (ontologies) which should be adhered to when defining datasets to ensure maximum interoperability.  The ontologies define the types of things which exist in these datasets and the properti
-es they can have. The ontologies are described as RDF Schemas and are in the N-triple RDF format.
+es they can have. The ontologies are described as RDF Schemas and are in the turtle RDF format.
 
 Example
 -------
