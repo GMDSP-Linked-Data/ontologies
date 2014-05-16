@@ -54,4 +54,8 @@ A type URI has the form http://data.gmdsp.org.uk/def/council/{dataset-type}/{Sub
 
 A property URI has the form http://data.gmdsp.org/def/council/{dataset-type}/{propertyType}. eg http://data.gmdsp.org.uk/def/council/recycling/recyclingType. The dataset-type is 'recycling' and the propertyType is 'recyclingType'. The dataset-type is lower case and dasherized. The propertyType is camel cased and begins with a lower case letter.
 
-A property value URI has the form http://data.gmdsp.org.uk/def/council/{dataset-type}/{property-type}/{property-value} eg. http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons. The dataset-type is 'recycling', the property-type is 'recycling-type' and the property-value is 'cartons'. The dataset-type is lower case and dasherized. Te property-type is lower case and dasherized. The property-value is lower case and dasherized. 
+A property value URI has the form http://data.gmdsp.org.uk/def/council/{dataset-type}/{property-type}/{property-value} eg. http://data.gmdsp.org.uk/def/council/recycling/recycling-type/cartons. The dataset-type is 'recycling', the property-type is 'recycling-type' and the property-value is 'cartons'. The dataset-type is lower case and dasherized. Te property-type is lower case and dasherized. The property-value is lower case and dasherized.
+
+Licence
+-------
+[OGL v2](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/ "UK Open Government Licence version 2")
