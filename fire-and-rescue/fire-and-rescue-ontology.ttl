@@ -14,6 +14,13 @@
         rdfs:comment "A Fire and Rescue incident" ;
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/fire-and-rescue> .
 
+<http://data.gmdsp.org.uk/def/council/fire-and-rescue/incidentReference>
+        a     rdf:Property ;
+        rdfs:comment  "The unique identifying reference for this incident" ;
+        rdfs:domain   <http://data.gmdsp.org.uk/def/council/fire-and-rescue/Incident> ;
+        rdfs:label    "Incident reference"^^xsd:string ;
+        rdfs:range    xsd:integer .
+
 <http://data.gmdsp.org.uk/def/council/fire-and-rescue/incidentStartTime>
         a     rdf:Property ;
         rdfs:comment  "When were the fire and rescue service alerted about the incident" ;
