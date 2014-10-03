@@ -1,0 +1,29 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qudt: <http://qudt.org/vocab/unit/> .
+@prefix thing: <http://data.gmdsp.org.uk/def/council/thing/> .
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+thing:Thing
+      rdfs:label "Thing"^^xsd:string ;
+      rdfs:comment "A thing."^^xsd:string ;
+      rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/thing> .
+
+
+#################################################################
+#
+#    Properties
+#
+#################################################################
+
+thing:hasProperty
+      rdf:type rdf:Property ;
+      rdfs:label "A property"^^xsd:string ;
+      rdfs:comment "A thing can have a property." ;
+      rdfs:domain thing:Thing .
