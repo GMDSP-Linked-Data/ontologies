@@ -14,7 +14,7 @@
 gritting:Gritbin
       rdfs:label "Grit bin"^^xsd:string ;
       rdfs:subClassOf smartcity:Object ;
-      rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/streetlighting> .
+      rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/gritting> .
 
 gritting:GrittingRoute
       rdfs:label "Gritting route"^^xsd:string .
