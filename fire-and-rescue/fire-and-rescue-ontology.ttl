@@ -8,31 +8,29 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
 
-<http://data.gmdsp.org.uk/def/council/fire-and-rescue/Incident>
+<http://data.gmdsp.org.uk/def/fire-and-rescue/Incident>
         a                rdf:Class ;
         rdfs:label       "Incident"^^xsd:string ;
         rdfs:comment "A Fire and Rescue incident" ;
-        rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/fire-and-rescue> .
+        rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/fire-and-rescue> .
 
-<http://data.gmdsp.org.uk/def/council/fire-and-rescue/incidentReference>
+<http://data.gmdsp.org.uk/def/fire-and-rescue/incidentReference>
         a     rdf:Property ;
         rdfs:comment  "The unique identifying reference for this incident" ;
-        rdfs:domain   <http://data.gmdsp.org.uk/def/council/fire-and-rescue/Incident> ;
+        rdfs:domain   <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
         rdfs:label    "Incident reference"^^xsd:string ;
         rdfs:range    xsd:integer .
 
-<http://data.gmdsp.org.uk/def/council/fire-and-rescue/incidentStartTime>
+<http://data.gmdsp.org.uk/def/fire-and-rescue/incidentStartTime>
         a     rdf:Property ;
         rdfs:comment  "When were the fire and rescue service alerted about the incident" ;
-        rdfs:domain   <http://data.gmdsp.org.uk/def/council/fire-and-rescue/Incident> ;
+        rdfs:domain   <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
         rdfs:label    "Incident start time"^^xsd:string ;
         rdfs:range    sem:hasBeginTimeStamp .
 
-<http://data.gmdsp.org.uk/def/council/fire-and-rescue/incidentType>
+<http://data.gmdsp.org.uk/def/fire-and-rescue/incidentType>
         a     rdf:Property ;
         rdfs:comment  "When were the fire and rescue service alerted about the incident" ;
-        rdfs:domain   <http://data.gmdsp.org.uk/def/council/fire-and-rescue/Incident> ;
+        rdfs:domain   <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
         rdfs:label    "Incident start time"^^xsd:string ;
-        rdfs:range    <http://data.gmdsp.org.uk/def/council/fire-and-rescue/incident-type/> .
-
-
+        rdfs:range    <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/> .
