@@ -14,6 +14,19 @@
         rdfs:comment "A Fire and Rescue incident" ;
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/fire-and-rescue> .
 
+<http://data.gmdsp.org.uk/def/fire-and-rescue/IncidentLocation>
+        a                rdf:Class ;
+        rdfs:label       "Incident location"^^xsd:string ;
+        rdfs:comment "COntains location information about a Fire and Rescue incident." ;
+        rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/fire-and-rescue> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/FireDetails>
+        a                rdf:Class ;
+        rdfs:label       "Fire details"^^xsd:string ;
+        rdfs:comment "COntains information about the fire at a Fire and Rescue incident." ;
+        rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/fire-and-rescue> .
+
+
 <http://data.gmdsp.org.uk/def/fire-and-rescue/incidentReference>
         a     rdf:Property ;
         rdfs:comment  "The unique identifying reference for this incident" ;
@@ -34,3 +47,18 @@
         rdfs:domain   <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
         rdfs:label    "Incident start time"^^xsd:string ;
         rdfs:range    <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/incidentLocation>
+        a     rdf:Property;
+        rdfs:Comment "Where a fire and rescue incident was located" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
+        rdfs:label   "Incident location" ;
+        rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/IncidentLocation> .
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fireDetails>
+        a     rdf:Property;
+        rdfs:Comment "Information about the fire at a fire and rescue incident" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
+        rdfs:label   "Fire details" ;
+        rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/FireDetails> .
+
