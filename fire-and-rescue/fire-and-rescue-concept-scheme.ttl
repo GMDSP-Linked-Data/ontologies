@@ -1,0 +1,77 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+###########################
+#
+# Concepts
+#
+###########################
+###########################
+# incidentType
+###########################
+
+<http://data.gmdsp.org.uk/fire-and-rescue/incident-type> a skos:ConceptScheme ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/primary-fire> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/false-alarm-good-intent> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/spec-serv-emergency> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/secondary-fire> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/uwfsfada> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/false-alarm-malicious> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/error> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/chimney-fire> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/miscellaneous> .
+
+###########################
+# primaryFireLocationOrigin
+###########################
+
+<http://data.gmdsp.org.uk/fire-and-rescue/primary-fire-location-origin> a skos:ConceptScheme ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue//primary-fire-location-origin/driverpassenger-area> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/na> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/kitchen> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/other> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/external-fittings> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/external-structures> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/garage> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/reception-area> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/bedroom> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/wheelsbrakes> ; 
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/engine> ; 
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/not-known> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/office> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/living-room> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/fuel-tank> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/corridorhall> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/airingdrying-cupboard> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/dining-room> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/boiler-room> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/roof> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/it-servermainframe-room> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/shop-floorshowroomdisplay-hall> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/chimney> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/store-room> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/roof-space> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/refuse-store> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/boot> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/processproduction-room> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/other-insidecargo-area> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/on-or-near-tracks-or-paths> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/in-open-area-near-to-housing> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/bathroomtoilet> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/bedsittingroom> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/under-stairs-enclosed-storage-area> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/conservatory> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/utility-room> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/meeting-room> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/barn> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/stairs> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/parking-garage> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/laundry-room> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/canteenrestaurant> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/liftlift-shaftmotor-room> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/power-houseplantgenerator> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/open-plan-area> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/passenger-area> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/cell> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/cloakroom> ;
+	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/common-roomstaff-roomday-room> .
