@@ -30,8 +30,15 @@
 <http://data.gmdsp.org.uk/def/fire-and-rescue/FireDetails>
         a                rdf:Class ;
         rdfs:label       "Fire details"^^xsd:string ;
-        rdfs:comment "COntains information about the fire at a Fire and Rescue incident." ;
+        rdfs:comment "Contains information about the fire at a Fire and Rescue incident." ;
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/fire-and-rescue> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/AlarmDetails>
+        a                rdf:Class ;
+        rdfs:label       "Alarm details"^^xsd:string ;
+        rdfs:comment "Contains information about the fire alarms at a Fire and Rescue incident." ;
+        rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/fire-and-rescue> .
+
 
 <http://data.gmdsp.org.uk/def/fire-and-rescue/callSign>
         a     rdf:Property ;
@@ -97,3 +104,128 @@
         rdfs:label   "Incident category" ;
         rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-category> .
 
+<http://data.gmdsp.org.uk/def/fire-and-rescue/propertyCategory>
+        a     rdf:Property;
+        rdfs:Comment "The category for the property that the incident happened at" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
+        rdfs:label   "Property category" ;
+        rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/property-category> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/incidentDate>
+        a     rdf:Property;
+        rdfs:Comment "The date that the incident happened at" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
+        rdfs:label   "Incident date" ;
+        rdfs:range   xsd:DateTime .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/alarmDetails>
+        a     rdf:Property;
+        rdfs:Comment "The alarm details for the property that the incident happened at" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
+        rdfs:label   "Alarm details" ;
+        rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/AlarmDetails> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/hostility>
+        a     rdf:Property;
+        rdfs:Comment "Were the fire crew shown any hostility at the Fire and Rescue Incident" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
+        rdfs:label   "Hostility" ;
+        rdfs:range   xsd:string .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/propertyType>
+        a     rdf:Property;
+        rdfs:Comment "The type of property that the incident happened at" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
+        rdfs:label   "Property type" ;
+        rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/property-type> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/classification>
+        a     rdf:Property;
+        rdfs:Comment "The classification of the Fire and Rescue incident" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
+        rdfs:label   "Classification" ;
+        rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/classification> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/wardName>
+        a     rdf:Property;
+        rdfs:Comment "The name of the council ward where the incident happened" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/IncidentLocation> ;
+        rdfs:label   "Ward name" ;
+        rdfs:range   xsd:string .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/borough>
+        a     rdf:Property;
+        rdfs:Comment "The borough where the incident happened" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/IncidentLocation> ;
+        rdfs:label   "Borough" ;
+        rdfs:range   xsd:string .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/wardCode>
+        a     rdf:Property;
+        rdfs:Comment "The ward code for the council ward where the incident happened" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/IncidentLocation> ;
+        rdfs:label   "Ward code" ;
+        rdfs:range   xsd:string .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/ignitionSource>
+        a     rdf:Property;
+        rdfs:Comment "The ignition source for the fire at a Fire and Rescue incident" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/FireDetails> ;
+        rdfs:label   "Ignition source" ;
+        rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/ignitionSourcePower>
+        a     rdf:Property;
+        rdfs:Comment "The power which ignited the fire at a Fire and Rescue incident" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/FireDetails> ;
+        rdfs:label   "Ignition source power" ;
+        rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source-power> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/incidentCategory>
+        a     rdf:Property;
+        rdfs:Comment "The category for the Fire and Rescue incident" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/FireDetails> ;
+        rdfs:label   "Incident Category" ;
+        rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-category> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/alarmDetails>
+        a     rdf:Property;
+        rdfs:Comment "The alarm details for the property that the incident happened at" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
+        rdfs:label   "Alarm details" ;
+        rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/AlarmDetails> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/mostLikelyCause>
+        a     rdf:Property;
+        rdfs:Comment "The most likely cause for the Fire and Rescue incident" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/FireDetails> ;
+        rdfs:label   "Most likely cause" ;
+        rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-cause> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/firstIgnited>
+        a     rdf:Property;
+        rdfs:Comment "Where the fire at the incident was first ignited" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/FireDetails> ;
+        rdfs:label   "First ignited" ;
+        rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/mostLikelyCausedBy>
+        a     rdf:Property;
+        rdfs:Comment "The most likely cause for the fire at the Fire and Rescue incident" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/FireDetails> ;
+        rdfs:label   "Most likely caused by" ;
+        rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primaryFireLocationOrigin>
+        a     rdf:Property;
+        rdfs:Comment "The location of the primary fire origin at the Fire and Rescue incident" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/FireDetails> ;
+        rdfs:label   "Primary fire location origin" ;
+        rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/extentOfDamage>
+        a     rdf:Property;
+        rdfs:Comment "The extent of the damage caused by the fire at the Fire and Rescue incident happened" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/FireDetails> ;
+        rdfs:label   "Extent of damage" ;
+        rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> .

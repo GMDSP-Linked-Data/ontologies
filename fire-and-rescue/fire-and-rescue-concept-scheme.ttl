@@ -10,7 +10,7 @@
 # incidentType
 ###########################
 
-<http://data.gmdsp.org.uk/fire-and-rescue/incident-type> a skos:ConceptScheme ;
+<http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> a skos:ConceptScheme ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/primary-fire> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/false-alarm-good-intent> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/spec-serv-emergency> ;
@@ -25,7 +25,7 @@
 # primaryFireLocationOrigin
 ###########################
 
-<http://data.gmdsp.org.uk/fire-and-rescue/primary-fire-location-origin> a skos:ConceptScheme ;
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> a skos:ConceptScheme ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/driverpassenger-area> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/na> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/kitchen> ;
@@ -80,10 +80,14 @@
 # initialIncidentType
 # #######################
 
-<http://data.gmdsp.org.uk/fire-and-rescue/initial-incident-type> a skos:ConceptScheme ;
+<http://data.gmdsp.org.uk/def/fire-and-rescue/initial-incident-type> a skos:ConceptScheme ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/initial-incident-type/f07-light-vehicle-> .
 
-<http://data.gmdsp.org.uk/def/fire-and-rescue/initial-incident-type/f07-light-vehicle-> rdfs:label "F07  light vehicle" .
+<http://data.gmdsp.org.uk/def/fire-and-rescue/initial-incident-type/f07-light-vehicle-> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/initial-incident-type> ;
+	a skos:Concept ;
+	rdfs:label "F07 light vehicle" ;
+	skos:prefLabel "F07 light vehicle" ;
+	skos:definition "F07 light vehicle" .
 
 
 #########################
@@ -93,4 +97,21 @@
 <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-category> a skos:ConceptScheme ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-category/fire> .
 
-<http://data.gmdsp.org.uk/def/fire-and-rescue/incident-category/fire> rdfs:label "Fire" .
+<http://data.gmdsp.org.uk/def/fire-and-rescue/incident-category/fire> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-category> ;
+	a skos:Concept ;
+	rdfs:label "Fire" ;
+	skos:prefLabel "Fire" ;
+	skos:definition "Fire" .
+
+#########################
+# propertyCategory
+#########################
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/property-category> a skos:ConceptScheme ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/property-category/roadvehicle> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/property-category/roadvehicle> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/property-category> ;
+        a skos:Concept ;
+        rdfs:label "Road vehicle" ;
+        skos:prefLabel "Road vehicle" ;
+        skos:definition "Road vehicle" .
