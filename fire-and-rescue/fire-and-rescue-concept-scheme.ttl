@@ -85,6 +85,12 @@
 	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/cloakroom> ;
 	skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/common-roomstaff-roomday-room> .
 
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/driverpassenger-area> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Driver passenger area" ;
+	skos:prefLabel "Driver passenger area" ;
+	skos:definition "Driver passenger area" .
+
 #########################
 # initialIncidentType
 # #######################
@@ -124,3 +130,16 @@
         rdfs:label "Road vehicle" ;
         skos:prefLabel "Road vehicle" ;
         skos:definition "Road vehicle" .
+
+#######################
+# ignitionSource
+#######################
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source> a skos:ConceptScheme ;
+       skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source/naked-flame-lighted-paper-or-card-or-other-naked-flame> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source/naked-flame-lighted-paper-or-card-or-other-naked-flame> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source> ;
+       a skos:Concept ;
+       rdfs:label "Naked flame, lighted paper or card or other naked flame" ;
+       skos:prefLabel "Naked flame, lighted paper or card or other naked flame" ;
+       skos:definition "Naked flame, lighted paper or card or other naked flame" .
