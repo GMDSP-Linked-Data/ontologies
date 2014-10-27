@@ -229,3 +229,33 @@
         rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/FireDetails> ;
         rdfs:label   "Extent of damage" ;
         rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/alarmSystemPresent>
+        a     rdf:Property;
+        rdfs:Comment "Was an alarm present at the property that the incident happened at" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/AlarmDetails> ;
+        rdfs:label   "Alarm system present" ;
+        rdfs:range   xsd:string .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/numberOfAlarms>
+        a     rdf:Property;
+        rdfs:Comment "The number of alarms details at the property that the incident happened at" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/AlarmDetails> ;
+        rdfs:label   "Number of alarms" ;
+        rdfs:range   xsd:integer .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/numberOfAlarmsNotOperated>
+        a     rdf:Property;
+        rdfs:Comment "The number of alarms that were not operated at the property where the incident occurred" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/AlarmDetails> ;
+        rdfs:label   "Number of alarms not operated" ;
+        rdfs:range   xsd:integer .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/alarmFailureReason>
+        a     rdf:Property;
+        rdfs:Comment "The reason why the alarm failed at the property where the incident occurred" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/AlarmDetails> ;
+        rdfs:label   "Alarm failure reason" ;
+        rdfs:range   xsd:string .
+
+
