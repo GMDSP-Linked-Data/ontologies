@@ -76,3 +76,24 @@
         rdfs:label   "Fire details" ;
         rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/FireDetails> .
 
+<http://data.gmdsp.org.uk/def/fire-and-rescue/initialIncidentType>
+        a     rdf:Property;
+        rdfs:Comment "The initial type for a fire and rescue incident" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
+        rdfs:label   "Initial incident type" ;
+        rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/initial-incident-type> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/numberOfPumpsMobilisedBeforeStop>
+        a     rdf:Property;
+        rdfs:Comment "The number of pumps mobilised before stop" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
+        rdfs:label   "Number of pumps mobilised before stop" ;
+        rdfs:range   xsd:integer .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/incidentCategory>
+        a     rdf:Property;
+        rdfs:Comment "The incident category" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
+        rdfs:label   "Incident category" ;
+        rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-category> .
+
