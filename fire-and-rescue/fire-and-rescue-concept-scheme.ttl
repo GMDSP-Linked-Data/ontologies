@@ -14,6 +14,18 @@
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/hsc-outcome/completed> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/hsc-outcome/refused> .
 
+<http://data.gmdsp.org.uk/def/fire-and-rescue/hsc-outcome/completed> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/hsc-outcome> ;
+        a skos:Concept ;
+        rdfs:label "Completed" ;
+        skos:prefLabel "Completed" ;
+        skos:definition "Road Completed" .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/hsc-outcome/refused> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/hsc-outcome> ;
+        a skos:Concept ;
+        rdfs:label "Refused" ;
+        skos:prefLabel "Refused" ;
+        skos:definition "Refused" .
+
 
 ###########################
 # incidentType
