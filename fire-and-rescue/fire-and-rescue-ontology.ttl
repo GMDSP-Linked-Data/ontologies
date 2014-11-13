@@ -39,14 +39,25 @@
         rdfs:comment "Contains information about the fire alarms at a Fire and Rescue incident." ;
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/fire-and-rescue> .
 
+<http://data.gmdsp.org.uk/def/fire-and-rescue/HomeSafetyCheck>
+        a                rdf:Class ;
+        rdfs:label       "Home Safety Check"^^xsd:string ;
+        rdfs:comment "Contains information about a Home Safety Check." ;
+        rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/fire-and-rescue> .
 
+<http://data.gmdsp.org.uk/def/fire-and-rescue/hscOutcome>
+        a     rdf:Property ;
+        rdfs:comment  "The outcome of a Home Safety Check request" ;
+        rdfs:domain   <http://data.gmdsp.org.uk/def/fire-and-rescue/HomeSafetyCheck> ;
+        rdfs:label    "Home Safety Check outcome"^^xsd:string ;
+        rdfs:range    xsd:string .
+        
 <http://data.gmdsp.org.uk/def/fire-and-rescue/callSign>
         a     rdf:Property ;
         rdfs:comment  "The call sign for a fire station" ;
         rdfs:domain   <http://data.gmdsp.org.uk/def/fire-and-rescue/FireStation> ;
         rdfs:label    "Call sign"^^xsd:string ;
         rdfs:range    xsd:string .
-
 
 <http://data.gmdsp.org.uk/def/fire-and-rescue/incidentReference>
         a     rdf:Property ;

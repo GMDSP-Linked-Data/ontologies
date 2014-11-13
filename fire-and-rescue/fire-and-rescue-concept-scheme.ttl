@@ -7,6 +7,15 @@
 #
 ###########################
 ###########################
+# hscOutcome
+###########################
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/hsc-outcome> a skos:ConceptScheme ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/hsc-outcome/completed> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/hsc-outcome/refused> .
+
+
+###########################
 # incidentType
 ###########################
 
