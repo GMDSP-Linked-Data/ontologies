@@ -1,0 +1,12 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gmdsp: <http://data.gmdsp.org.uk/def/libraries/> .
+
+gmdsp:loantype a skos:ConceptScheme ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/id/manchester/libraries/loantype/renw> .
+
+<http://data.gmdsp.org.uk/id/manchester/libraries/loantype/renw> skos:inScheme <http://data.gmdsp.org.uk/def/libraries> ;
+        a skos:Concept ;
+        rdfs:label "RENW" ;
+        skos:prefLabel "RENW" ;
+        skos:definition "Renewal" .

@@ -1,0 +1,31 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gmdsp: <http://data.gmdsp.org.uk/def/libraries/> .
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+gmdsp:LibraryService
+      rdfs:label "Library Service"^^xsd:string ;
+      rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/libraries> .
+      
+gmdsp:LoanType 
+      rdfs:label "Loan Type"^^xsd:string ;
+      rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/libraries> .           
+
+#################################################################
+#
+#    Properties
+#
+#################################################################
+
+gmdsp:loanType
+      rdf:type rdf:Property ;
+      rdfs:label "Loan type"^^xsd:string ;
+	  rdfs:comment "What type of loan a transaction has." ;
+      rdfs:domain <http://purl.org/ontology/dso#Loan>  ;
+      rdfs:range gmdsp:loantype .
