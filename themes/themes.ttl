@@ -1,0 +1,128 @@
+
+<http://data.gmdsp.org.uk/def/concept/themes/allotments> a <http://data.gmdsp.org.uk/def/Theme>,
+     <http://www.w3.org/2004/02/skos/core#Concept>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Allotments";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "A theme covering data relating to allotments.";
+   <http://www.w3.org/2004/02/skos/core#definition> "A theme covering data relating to allotments.";
+   <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.gmdsp.org.uk/def/concept-scheme/themes>;
+   <http://www.w3.org/2004/02/skos/core#notation> "allotments";
+   <http://www.w3.org/2004/02/skos/core#prefLabel> "Allotments";
+   <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.gmdsp.org.uk/def/concept-scheme/themes> .
+
+<http://data.gmdsp.org.uk/def/concept/themes/council-tax> a <http://data.gmdsp.org.uk/def/Theme>,
+     <http://www.w3.org/2004/02/skos/core#Concept>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Council tax";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "A theme covering data related to council tax.";
+   <http://www.w3.org/2004/02/skos/core#definition> "A theme covering data related to council tax.";
+   <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.gmdsp.org.uk/def/concept-scheme/themes>;
+   <http://www.w3.org/2004/02/skos/core#notation> "council-tax";
+   <http://www.w3.org/2004/02/skos/core#prefLabel> "Council tax";
+   <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.gmdsp.org.uk/def/concept-scheme/themes> .
+
+<http://data.gmdsp.org.uk/def/concept/themes/expenditure> a <http://data.gmdsp.org.uk/def/Theme>,
+     <http://www.w3.org/2004/02/skos/core#Concept>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Expenditure";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "A theme covering data relating to council spending.";
+   <http://www.w3.org/2004/02/skos/core#definition> "A theme covering data relating to council spending.";
+   <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.gmdsp.org.uk/def/concept-scheme/themes>;
+   <http://www.w3.org/2004/02/skos/core#notation> "expenditure";
+   <http://www.w3.org/2004/02/skos/core#prefLabel> "Expenditure";
+   <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.gmdsp.org.uk/def/concept-scheme/themes> .
+
+<http://data.gmdsp.org.uk/def/concept/themes/gritting> a <http://data.gmdsp.org.uk/def/Theme>,
+     <http://www.w3.org/2004/02/skos/core#Concept>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Gritting";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "A theme covering data relating to gritting.";
+   <http://www.w3.org/2004/02/skos/core#definition> "A theme covering data relating to gritting.";
+   <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.gmdsp.org.uk/def/concept-scheme/themes>;
+   <http://www.w3.org/2004/02/skos/core#notation> "gritting";
+   <http://www.w3.org/2004/02/skos/core#prefLabel> "Gritting";
+   <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.gmdsp.org.uk/def/concept-scheme/themes> .
+
+<http://data.gmdsp.org.uk/def/concept/themes/parking> a <http://data.gmdsp.org.uk/def/Theme>,
+     <http://www.w3.org/2004/02/skos/core#Concept>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Parking";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "A theme covering data relating to car parking.";
+   <http://www.w3.org/2004/02/skos/core#definition> "A theme covering data relating to car parking.";
+   <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.gmdsp.org.uk/def/concept-scheme/themes>;
+   <http://www.w3.org/2004/02/skos/core#notation> "parking";
+   <http://www.w3.org/2004/02/skos/core#prefLabel> "Parking";
+   <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.gmdsp.org.uk/def/concept-scheme/themes> .
+
+<http://data.gmdsp.org.uk/def/concept/themes/planning> a <http://data.gmdsp.org.uk/def/Theme>,
+     <http://www.w3.org/2004/02/skos/core#Concept>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Planning";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "A theme covering data relating to planning.";
+   <http://www.w3.org/2004/02/skos/core#definition> "A theme covering data relating to planning.";
+   <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.gmdsp.org.uk/def/concept-scheme/themes>;
+   <http://www.w3.org/2004/02/skos/core#notation> "planning";
+   <http://www.w3.org/2004/02/skos/core#prefLabel> "Planning";
+   <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.gmdsp.org.uk/def/concept-scheme/themes> .
+
+<http://data.gmdsp.org.uk/def/concept/themes/recycling> a <http://data.gmdsp.org.uk/def/Theme>,
+     <http://www.w3.org/2004/02/skos/core#Concept>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Recycling";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "A theme covering data relating to recycling.";
+   <http://www.w3.org/2004/02/skos/core#definition> "A theme covering data relating to recycling.";
+   <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.gmdsp.org.uk/def/concept-scheme/themes>;
+   <http://www.w3.org/2004/02/skos/core#notation> "recycling";
+   <http://www.w3.org/2004/02/skos/core#prefLabel> "Recycling";
+   <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.gmdsp.org.uk/def/concept-scheme/themes> .
+
+<http://data.gmdsp.org.uk/def/concept/themes/reference> a <http://data.gmdsp.org.uk/def/Theme>,
+     <http://www.w3.org/2004/02/skos/core#Concept>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Reference";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "A theme covering reference data.";
+   <http://www.w3.org/2004/02/skos/core#definition> "A theme covering reference data.";
+   <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.gmdsp.org.uk/def/concept-scheme/themes>;
+   <http://www.w3.org/2004/02/skos/core#notation> "reference";
+   <http://www.w3.org/2004/02/skos/core#prefLabel> "Reference";
+   <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.gmdsp.org.uk/def/concept-scheme/themes> .
+
+<http://data.gmdsp.org.uk/def/concept/themes/street-lighting> a <http://data.gmdsp.org.uk/def/Theme>,
+     <http://www.w3.org/2004/02/skos/core#Concept>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Street lighting";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "A theme covering data relating to street lighting.";
+   <http://www.w3.org/2004/02/skos/core#definition> "A theme covering data relating to street lighting.";
+   <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.gmdsp.org.uk/def/concept-scheme/themes>;
+   <http://www.w3.org/2004/02/skos/core#notation> "street-lighting";
+   <http://www.w3.org/2004/02/skos/core#prefLabel> "Street lighting";
+   <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.gmdsp.org.uk/def/concept-scheme/themes> .
+
+<http://data.gmdsp.org.uk/def/concept/themes/street-libraries> a <http://data.gmdsp.org.uk/def/Theme>,
+     <http://www.w3.org/2004/02/skos/core#Concept>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Libraries";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "A theme covering data relating to libraries and loans.";
+   <http://www.w3.org/2004/02/skos/core#definition> "A theme covering data relating to libraries and loans.";
+   <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.gmdsp.org.uk/def/concept-scheme/themes>;
+   <http://www.w3.org/2004/02/skos/core#notation> "libraries";
+   <http://www.w3.org/2004/02/skos/core#prefLabel> "Libraries";
+   <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.gmdsp.org.uk/def/concept-scheme/themes> .
+
+<http://data.gmdsp.org.uk/def/concept/themes/fire-and-rescue> a <http://data.gmdsp.org.uk/def/Theme>,
+     <http://www.w3.org/2004/02/skos/core#Concept>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Fire and Rescue";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "A theme covering data relating to fire and rescue services.";
+   <http://www.w3.org/2004/02/skos/core#definition> "A theme covering data relating to fire and rescue services.";
+   <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.gmdsp.org.uk/def/concept-scheme/themes>;
+   <http://www.w3.org/2004/02/skos/core#notation> "fire-and-rescue";
+   <http://www.w3.org/2004/02/skos/core#prefLabel> "Fire and Rescue";
+   <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.gmdsp.org.uk/def/concept-scheme/themes> .
+
+<http://data.gmdsp.org.uk/def/concept-scheme/themes> a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GMDSP Themes concept scheme";
+   <http://purl.org/dc/terms/title> "GMDSP Themes concept scheme";
+   <http://purl.org/dc/terms/created> "2014-03-21"^^<http://www.w3.org/2001/XMLSchema#date>;
+   <http://purl.org/dc/terms/modified> "2014-03-24"^^<http://www.w3.org/2001/XMLSchema#date>;
+   <http://www.w3.org/2000/01/rdf-schema#comment> "This concept scheme defines a list of themes, used to categorise the datasets in the linked data created as part of the Greater Manchester Data Synchronisation Project.";
+   <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.gmdsp.org.uk/def/concept/themes/parking>,
+     <http://data.gmdsp.org.uk/def/concept/themes/council-tax>,
+     <http://data.gmdsp.org.uk/def/concept/themes/expenditure>,
+     <http://data.gmdsp.org.uk/def/concept/themes/planning>,
+     <http://data.gmdsp.org.uk/def/concept/themes/allotments>,
+     <http://data.gmdsp.org.uk/def/concept/themes/reference>,
+     <http://data.gmdsp.org.uk/def/concept/themes/gritting>,
+     <http://data.gmdsp.org.uk/def/concept/themes/street-lighting>,
+     <http://data.gmdsp.org.uk/def/concept/themes/recycling>, 
+     <http://data.gmdsp.org.uk/def/concept/themes/libraries>,
+     <http://data.gmdsp.org.uk/def/concept/themes/fire-and-rescue> .
