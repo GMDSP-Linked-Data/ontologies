@@ -36,7 +36,55 @@
 <http://data.gmdsp.org.uk/def/council/parking/totalNumberOfSpaces>
       rdf:type rdf:Property ;
       rdfs:label "Total number of spaces"^^xsd:string ;
-	  rdfs:comment "The total number of parking spaces in a particular car park" ;
+	rdfs:comment "The total number of parking spaces in a particular car park" ;
+      rdfs:domain <http://data.gmdsp.org.uk/def/council/parking/ParkingSite> ;
+      rdfs:range xsd:integer ;
+      rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/parking> .
+
+<http://data.gmdsp.org.uk/def/council/parking/totalNumberOfDisabledSpaces>
+      rdf:type rdf:Property ;
+      rdfs:label "Total number of spaces"^^xsd:string ;
+	rdfs:comment "The total number of disabled parking spaces in a particular car park" ;
+      rdfs:domain <http://data.gmdsp.org.uk/def/council/parking/ParkingSite> ;
+      rdfs:range xsd:integer ;
+      rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/parking> .
+
+<http://data.gmdsp.org.uk/def/council/parking/totalNumberOfFreeSpaces>
+      rdf:type rdf:Property ;
+      rdfs:label "Total number of spaces"^^xsd:string ;
+	rdfs:comment "The total number of free parking spaces in a particular car park" ;
+      rdfs:domain <http://data.gmdsp.org.uk/def/council/parking/ParkingSite> ;
+      rdfs:range xsd:integer ;
+      rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/parking> .
+
+<http://data.gmdsp.org.uk/def/council/parking/totalNumberOfChargaableSpaces>
+      rdf:type rdf:Property ;
+      rdfs:label "Total number of spaces"^^xsd:string ;
+	rdfs:comment "The total number of chargeable parking spaces in a particular car park" ;
+      rdfs:domain <http://data.gmdsp.org.uk/def/council/parking/ParkingSite> ;
+      rdfs:range xsd:integer ;
+      rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/parking> .
+
+<http://data.gmdsp.org.uk/def/council/parking/totalNumberOfInfoPoints>
+      rdf:type rdf:Property ;
+      rdfs:label "Total number of spaces"^^xsd:string ;
+	rdfs:comment "The total number of information points in a particular car park" ;
+      rdfs:domain <http://data.gmdsp.org.uk/def/council/parking/ParkingSite> ;
+      rdfs:range xsd:integer ;
+      rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/parking> .
+
+<http://data.gmdsp.org.uk/def/council/parking/totalNumberOfMachines>
+      rdf:type rdf:Property ;
+      rdfs:label "Total number of spaces"^^xsd:string ;
+	rdfs:comment "The total number of payment machines in a particular car park" ;
+      rdfs:domain <http://data.gmdsp.org.uk/def/council/parking/ParkingSite> ;
+      rdfs:range xsd:integer ;
+      rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/parking> .
+
+<http://data.gmdsp.org.uk/def/council/parking/totalNumberOfCCTVCameras>
+      rdf:type rdf:Property ;
+      rdfs:label "Total number of spaces"^^xsd:string ;
+	rdfs:comment "The total number of CCTV cameras in a particular car park" ;
       rdfs:domain <http://data.gmdsp.org.uk/def/council/parking/ParkingSite> ;
       rdfs:range xsd:integer ;
       rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/parking> .
