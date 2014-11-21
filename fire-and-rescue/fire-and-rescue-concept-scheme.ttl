@@ -210,18 +210,270 @@ skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-igni
 
 <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/furniturefurnishings-upholstered-furniture> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
         a skos:Concept ;
-        rdfs:label "Upholstered Furniture" ;
-        skos:prefLabel "Upholstered Furniture" ;
-        skos:definition "Upholstered Furniture" .
+        rdfs:label "Furniture, Furnishings: Upholstered Furniture" ;
+        skos:prefLabel "Furniture, Furnishings: Upholstered Furniture" ;
+        skos:definition "Furniture, Furnishings: Upholstered Furniture" .
         
 <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/rubbishwasterecycling-recycling-paper-cardboard> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
         a skos:Concept ;
-        rdfs:label "Rubbish, Waste, Recycling, Paper, Cardboard" ;
-        skos:prefLabel "Rubbish, Waste, Recycling, Paper, Cardboard" ;
-        skos:definition "Rubbish, Waste, Recycling, Paper, Cardboard" .
+        rdfs:label "Rubbish, Waste, Recycling: Paper, Cardboard" ;
+        skos:prefLabel "Rubbish, Waste, Recycling: Paper, Cardboard" ;
+        skos:definition "Rubbish, Waste, Recycling: Paper, Cardboard" .
         
 <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/clothingtextiles-clothing> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
         a skos:Concept ;
-        rdfs:label "Clothing, Textiles" ;
-        skos:prefLabel "Rubbish, Waste, Recycling, Paper, Cardboard" ;
-        skos:definition "Rubbish, Waste, Recycling, Paper, Cardboard" .
+        rdfs:label "Clothing, Textiles: Clothing" ;
+        skos:prefLabel "Clothing, Textiles: Clothing" ;
+        skos:definition "Clothing, Textiles: Clothing" .
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/structuralfixturesfittings-external-external-fittings> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "External Structural Fixtures, Fittings: External Fittings" ;
+        skos:prefLabel "External Structural Fixtures, Fittings: External Fitting" ;
+        skos:definition "External Structural Fixtures, Fittings: External Fitting" .
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/food-cooking-oil-or-fat> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Food: Cooking Oil or Fat" ;
+        skos:prefLabel "Food: Cooking Oil or Fat" ;
+        skos:definition "Food: Cooking Oil or Fat" .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/structuralfixturesfittings-internal-wiring-insulation> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Structural Fixtures, Fittings: Internal Wiring, Insulation" ;
+        skos:prefLabel "Structural Fixtures, Fittings: Internal Wiring, Insulation" ;
+        skos:definition "Structural Fixtures, Fittings: Internal Wiring, Insulation" .
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/wood-garden-shed> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Wood: Garden Shed" ;
+        skos:prefLabel "Wood: Garden Shed" ;
+        skos:definition "Wood: Garden Shed" .  
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/rubbishwasterecycling-rubbishwaste-material> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Rubbish, Waste, Recycling: Rubbish Waste Material" ;
+        skos:prefLabel "Rubbish, Waste, Recycling: Rubbish Waste Material" ;
+        skos:definition "Rubbish, Waste, Recycling: Rubbish Waste Material" . 
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/clothingtextiles-other-textiles> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Clothing, Textiles: Other Textiles" ;
+        skos:prefLabel "Clothing, Textiles: Other Textiles" ;
+        skos:definition "Clothing, Textiles: Other Textiles" .      
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/clothingtextiles-bedding> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Clothing, Textiles: Bedding" ;
+        skos:prefLabel "Clothing, Textiles: Bedding" ;
+        skos:definition "Clothing, Textiles: Bedding" .   
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/other> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Other" ;
+        skos:prefLabel "Other" ;
+        skos:definition "Other" .       
+     
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/vegetation-strawstubble> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Vegetation: Strawstubble" ;
+        skos:prefLabel "Vegetation: Strawstubble" ;
+        skos:definition "Vegetation: Strawstubble" .    
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/structuralfixturesfittings-internal-internal-fittings> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Internal Structural Fixtures, Fittings: Internal Fittings" ;
+        skos:prefLabel "Internal Structural Fixtures, Fittings: Internal Fittings" ;
+        skos:definition "Internal Structural Fixtures, Fittings: Internal Fittings" .        
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/structuralfixturesfittings-external-other> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "External Structural Fixtures, Fittings: Other" ;
+        skos:prefLabel "External Structural Fixtures, Fittings: Other" ;
+        skos:definition "External Structural Fixtures, Fittings: Other" .        
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/not-known> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Not Known" ;
+        skos:prefLabel "Not Known" ;
+        skos:definition "Not Known" .  
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/food-other> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Food: Other" ;
+        skos:prefLabel "Food: Other" ;
+        skos:definition "Food: Other" .    
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/structuralfixturesfittings-internal-other> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Internal Structural Fixtures, Fittings: Other" ;
+        skos:prefLabel "Internal Structural Fixtures, Fittings: Other" ;
+        skos:definition "Internal Structural Fixtures, Fittings: Other" . 
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/wood-other-wooden> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Wood: Other" ;
+        skos:prefLabel "Wood: Other" ;
+        skos:definition "Wood: Other" .        
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/structuralfixturesfittings-external-roof> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "External Structural Fixtures, Fittings: External Roof" ;
+        skos:prefLabel "External Structural Fixtures, Fittings: External Roof" ;
+        skos:definition "External Structural Fixtures, Fittings: External Roof" . 
+       
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/foam-rubber-plastic-foam-raw-material-only> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Foam, Rubber, Plastic: Raw Foam" ;
+        skos:prefLabel "Foam, Rubber, Plastic: Raw Foam" ;
+        skos:definition "Foam, Rubber, Plastic: Raw Foam" .
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/furniturefurnishings-bedmattress> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Furniture, Furnishings: Bed mattress" ;
+        skos:prefLabel "Furniture, Furnishings: Bed mattress" ;
+        skos:definition "Furniture, Furnishings: Bed mattress" .   
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/vegetation-grasslandheathscrub> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Vegetation: Grassland, Heath Scrub" ;
+        skos:prefLabel "Vegetation: Grassland, Heath Scrub" ;
+        skos:definition "Vegetation: Grassland, Heath Scrub" .      
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/explosives-gas-chemicals-petroloil-products> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Explosives, Gas, Chemicals: Petrol, Oil Products" ;
+        skos:prefLabel "Explosives, Gas, Chemicals: Petrol, Oil Products" ;
+        skos:definition "Explosives, Gas, Chemicals: Petrol, Oil Products" .    
+      
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/papercardboard-household-papercardboard> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Paper, Cardboard: Household" ;
+        skos:prefLabel "Paper, Cardboard: Household" ;
+        skos:definition "Paper, Cardboard: Household" . 
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/foam-rubber-plastic-plastic-raw-material-only>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Foam, Rubber, Plastic: Raw Plastic" ;
+        skos:prefLabel "Foam, Rubber, Plastic: Raw Plastic" ;
+        skos:definition "Foam, Rubber, Plastic: Raw Plastic" . 
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/papercardboard-other>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Paper, Cardboard: Other" ;
+        skos:prefLabel "Paper, Cardboard: Other" ;
+        skos:definition "Paper, Cardboard: Other" .      
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/furniturefurnishings-window-coverings>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Furniture, Furnishings: Window Coverings" ;
+        skos:prefLabel "Furniture, Furnishings: Window Coverings" ;
+        skos:definition "Furniture, Furnishings: Window Coverings" .                                                                                                                                                  
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/furniturefurnishings-floor-coverings>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Furniture, Furnishings: Floor Coverings" ;
+        skos:prefLabel "Furniture, Furnishings: Floor Coverings" ;
+        skos:definition "Furniture, Furnishings: Floor Coverings" .  
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/explosives-gas-chemicals-chemicals-in-a-raw-state>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Explosives, Gas, Chemicals: Chemicals in a Raw State" ;
+        skos:prefLabel "Explosives, Gas, Chemicals: Chemicals in a Raw State" ;
+        skos:definition "Explosives, Gas, Chemicals: Chemicals in a Raw State" . 
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/none>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "None" ;
+        skos:prefLabel "None" ;
+        skos:definition "None" .   
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/vegetation-leaves>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Vegetation: Leaves" ;
+        skos:prefLabel "Vegetation: Leaves" ;
+        skos:definition "Vegetation: Leaves" .     
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/animal-animal-products>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Animal Products" ;
+        skos:prefLabel "Animal Products" ;
+        skos:definition "Animal Products" .   
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/vegetation-trees>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Vegetation: Trees" ;
+        skos:prefLabel "Vegetation: Trees" ;
+        skos:definition "Vegetation: Trees" .  
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/vegetation-other>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Vegetation: Other" ;
+        skos:prefLabel "Vegetation: Other" ;
+        skos:definition "Vegetation: Other" .  
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/furniturefurnishings-other-furniture>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Furniture, Furnishings: Other" ;
+        skos:prefLabel "Furniture, Furnishings: Other Furniture" ;
+        skos:definition "Furniture, Furnishings: Other Furniture" .         
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/furniturefurnishings-otherunspecified-furnishings>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Furniture, Furnishings: Unspecific Furnishings" ;
+        skos:prefLabel "Furniture, Furnishings: Unspecific Furnishings" ;
+        skos:definition "Furniture, Furnishings: Unspecific Furnishings" .  
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/explosives-gas-chemicals-gases>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Explosives, Gas, Chemicals: Gases" ;
+        skos:prefLabel "Furniture, Furnishings: Gases" ;
+        skos:definition "Furniture, Furnishings: Gases" .     
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/explosives-gas-chemicals-paint-varnish-resins-creosote>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Explosives, Gas, Chemicals: Paint Varnish, Resins, Creosote" ;
+        skos:prefLabel "Furniture, Furnishings: Paint Varnish, Resins, Creosote" ;
+        skos:definition "Furniture, Furnishings: Paint Varnish, Resins, Creosote  .   
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/rubbishwasterecycling-recycling-other>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Rubbish, Waste, Recycling: Other" ;
+        skos:prefLabel "Rubbish, Waste, Recycling: Other" ;
+        skos:definition "Rubbish, Waste, Recycling: Other" . 
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/foam-rubber-plastic-rubber-raw-material-only>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Foam, Rubber, Plastic: Raw Rubber" ;
+        skos:prefLabel "Rubbish, Waste, Recycling: Raw Rubber" ;
+        skos:definition "Rubbish, Waste, Recycling: Raw Rubber" .    
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/furniturefurnishings-lampshades>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Furniture, Furnishings: Lampshades" ;
+        skos:prefLabel "Furniture, Furnishings: Lampshades" ;
+        skos:definition "Furniture, Furnishings: Lampshades" .      
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/vegetation-hedge>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Vegetation: Hedges" ;
+        skos:prefLabel "Vegetation: Hedges" ;
+        skos:definition "Vegetation: Hedges" .        
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/decorationcelebration-decorationscards>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Decorations: Cards" ;
+        skos:prefLabel "Decorations: Cards" ;
+        skos:definition "Decorations: Cards" .          
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/vegetation-crops>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Vegetation: Crops" ;
+        skos:prefLabel "Vegetation: Crops" ;
+        skos:definition "Vegetation: Crops" .   
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/explosives-gas-chemicals-fireworks>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+        a skos:Concept ;
+        rdfs:label "Explosives, Gas, Chemicals: Fireworks" ;
+        skos:prefLabel "Explosives, Gas, Chemicals: Fireworks" ;
+        skos:definition "Explosives, Gas, Chemicals: Fireworks" .                                                                                                                                
