@@ -102,6 +102,84 @@
 	rdfs:label "Driver passenger area" ;
 	skos:prefLabel "Driver passenger area" ;
 	skos:definition "Driver passenger area" .
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/na> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "N/A" ;
+	skos:prefLabel "N/A" ;
+	skos:definition "N/A" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/kitchen> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Kitchen" ;
+	skos:prefLabel "Kitchen" ;
+	skos:definition "Kitchen" .		
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/other> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Other" ;
+	skos:prefLabel "Other" ;
+	skos:definition "Other" .		
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/external-fittings> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "External Fittings" ;
+	skos:prefLabel "External Fittings" ;
+	skos:definition "External Fittings" .		
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/external-structures> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "External Structures" ;
+	skos:prefLabel "External Structures" ;
+	skos:definition "External Structures" .
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/garage> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Garage" ;
+	skos:prefLabel "Garage" ;
+	skos:definition "Garage" .		
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/reception-area> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Reception Area" ;
+	skos:prefLabel "Reception Area" ;
+	skos:definition "Reception Area" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/bedroom> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Bedroom" ;
+	skos:prefLabel "Bedroom" ;
+	skos:definition "Bedroom" .			
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/wheelsbrakes> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Wheels Brakes" ;
+	skos:prefLabel "Wheels Brakes" ;
+	skos:definition "Wheels Brakes" .										
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/engine> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Engine" ;
+	skos:prefLabel "Engine" ;
+	skos:definition "Engine" .		
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/not-known> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Not Known" ;
+	skos:prefLabel "Not Known" ;
+	skos:definition "Not Known" .
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/office> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Office" ;
+	skos:prefLabel "Office" ;
+	skos:definition "Office" .		
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/living-room> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Living Room" ;
+	skos:prefLabel "Living Room" ;
+	skos:definition "Living Room" .														
 
 #########################
 # initialIncidentType
@@ -434,7 +512,7 @@ skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-igni
         a skos:Concept ;
         rdfs:label "Explosives, Gas, Chemicals: Paint Varnish, Resins, Creosote" ;
         skos:prefLabel "Furniture, Furnishings: Paint Varnish, Resins, Creosote" ;
-        skos:definition "Furniture, Furnishings: Paint Varnish, Resins, Creosote  .   
+        skos:definition "Furniture, Furnishings: Paint Varnish, Resins, Creosote"  .   
         
 <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-ignited/rubbishwasterecycling-recycling-other>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
         a skos:Concept ;
