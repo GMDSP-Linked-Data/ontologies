@@ -179,8 +179,218 @@
 	a skos:Concept ;
 	rdfs:label "Living Room" ;
 	skos:prefLabel "Living Room" ;
-	skos:definition "Living Room" .														
+	skos:definition "Living Room" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/fuel-tank> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Fuel Tank" ;
+	skos:prefLabel "Fuel Tank" ;
+	skos:definition "Fuel Tank" .															
 
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/corridorhall> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Corridor Hall" ;
+	skos:prefLabel "Corridor Hall" ;
+	skos:definition "Corridor Hall" .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/airingdrying-cupboard> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Airing/Drying Cupboard" ;
+	skos:prefLabel "Airing/Drying Cupboard" ;
+	skos:definition "Airing/Drying Cupboard" .
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/dining-room> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Dining Room" ;
+	skos:prefLabel "Dining Room" ;
+	skos:definition "Dining Room" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/boiler-room> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Boiler Room" ;
+	skos:prefLabel "Boiler Room" ;
+	skos:definition "Boiler Room" .		
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/roof> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Roof" ;
+	skos:prefLabel "Roof" ;
+	skos:definition "Roof" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/it-servermainframe-room> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "IT Server/Mainframe Room" ;
+	skos:prefLabel "IT Server/Mainframe Room" ;
+	skos:definition "IT Server/Mainframe Room" .
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/shop-floorshowroomdisplay-hall> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Shop Floor/Show Room/Display Hall" ;
+	skos:prefLabel "Shop Floor/Show Room/Display Hall" ;
+	skos:definition "Shop Floor/Show Room/Display Hall" .
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/chimney> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Chimney" ;
+	skos:prefLabel "Chimney" ;
+	skos:definition "Chimney" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/store-room> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Store Room" ;
+	skos:prefLabel "Store Room" ;
+	skos:definition "Store Room" .			
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/roof-space> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Roof Space" ;
+	skos:prefLabel "Roof Space" ;
+	skos:definition "Roof Space" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/refuse-store> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Refuse Store" ;
+	skos:prefLabel "Refuse Store" ;
+	skos:definition "Refuse Store" .
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/boot> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Boot" ;
+	skos:prefLabel "Boot" ;
+	skos:definition "Boot" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/processproduction-room> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Process/Production Room" ;
+	skos:prefLabel "Process/Production Room" ;
+	skos:definition "Process/Production Room" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/other-insidecargo-area> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Other: Inside Cargo Area" ;
+	skos:prefLabel "Other: Inside Cargo Area" ;
+	skos:definition "Other: Inside Cargo Area" .
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/on-or-near-tracks-or-paths> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "On or Near Tracks/Paths" ;
+	skos:prefLabel "On or Near Tracks/Paths" ;
+	skos:definition "On or Near Tracks/Paths" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/in-open-area-near-to-housing> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "In Open Area Near to Housing" ;
+	skos:prefLabel "In Open Area Near to Housing" ;
+	skos:definition "In Open Area Near to Housing" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/bathroomtoilet> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Bathroom Toilet" ;
+	skos:prefLabel "Bathroom Toilet" ;
+	skos:definition "Bathroom Toilet" .		
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/bedsittingroom> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Bed-sitting Room" ;
+	skos:prefLabel "Bed-sitting Room" ;
+	skos:definition "Bed-sitting Room" .
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/under-stairs-enclosed-storage-area> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Under Stairs/Enclosed Storage Area" ;
+	skos:prefLabel "Under Stairs/Enclosed Storage Area" ;
+	skos:definition "Under Stairs/Enclosed Storage Area" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/conservatory> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Conservatory" ;
+	skos:prefLabel "Conservatory" ;
+	skos:definition "Conservatory" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/utility-room> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Utility Room" ;
+	skos:prefLabel "Utility Room" ;
+	skos:definition "Utility Room" .		
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/meeting-room> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Meeting Room" ;
+	skos:prefLabel "Meeting Room" ;
+	skos:definition "Meeting Room" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/barn> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Barn" ;
+	skos:prefLabel "Barn" ;
+	skos:definition "Barn" .
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/stairs> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Stairs" ;
+	skos:prefLabel "Stairs" ;
+	skos:definition "Stairs" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/parking-garage> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Parking Garage" ;
+	skos:prefLabel "Parking Garage" ;
+	skos:definition "Parking Garage" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/laundry-room> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Laundry Room" ;
+	skos:prefLabel "Laundry Room" ;
+	skos:definition "Laundry Room" .		
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/canteenrestaurant> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Canteen/Restaurant" ;
+	skos:prefLabel "Canteen/Restaurant" ;
+	skos:definition "Canteen/Restaurant" .		
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/liftlift-shaftmotor-room> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Lift: Shaft Motor Room" ;
+	skos:prefLabel "Lift: Shaft Motor Room" ;
+	skos:definition "Lift: Shaft Motor Room" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/power-houseplantgenerator> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Power House/Plant Generator" ;
+	skos:prefLabel "Power House/Plant Generator" ;
+	skos:definition "Power House/Plant Generator" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/open-plan-area> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Open Plan Area" ;
+	skos:prefLabel "Open Plan Area" ;
+	skos:definition "Open Plan Area" .			
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/passenger-area> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Passenger Area" ;
+	skos:prefLabel "Passenger Area" ;
+	skos:definition "Passenger Area" .																	
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/cell> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Cell" ;
+	skos:prefLabel "Cell" ;
+	skos:definition "Cell" .
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/cloakroom> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Cloakroom" ;
+	skos:prefLabel "Cloakroom" ;
+	skos:definition "Cloakroom" .
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin/common-roomstaff-roomday-room> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/primary-fire-location-origin> ;
+	a skos:Concept ;
+	rdfs:label "Common Room/Staff Room/Day Room" ;
+	skos:prefLabel "Common Room/Staff Room/Day Room" ;
+	skos:definition "Common Room/Staff Room/Day Room" .		
+	
 #########################
 # initialIncidentType
 # #######################
