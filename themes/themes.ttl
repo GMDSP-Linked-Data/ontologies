@@ -89,7 +89,7 @@
    <http://www.w3.org/2004/02/skos/core#prefLabel> "Street lighting";
    <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.gmdsp.org.uk/def/concept-scheme/themes> .
 
-<http://data.gmdsp.org.uk/def/concept/themes/street-libraries> a <http://data.gmdsp.org.uk/def/Theme>,
+<http://data.gmdsp.org.uk/def/concept/themes/libraries> a <http://data.gmdsp.org.uk/def/Theme>,
      <http://www.w3.org/2004/02/skos/core#Concept>;
    <http://www.w3.org/2000/01/rdf-schema#label> "Libraries";
    <http://www.w3.org/2000/01/rdf-schema#comment> "A theme covering data relating to libraries and loans.";
@@ -99,6 +99,16 @@
    <http://www.w3.org/2004/02/skos/core#prefLabel> "Libraries";
    <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.gmdsp.org.uk/def/concept-scheme/themes> .
 
+<http://data.gmdsp.org.uk/def/concept/themes/volunteering> a <http://data.gmdsp.org.uk/def/Theme>,
+     <http://www.w3.org/2004/02/skos/core#Concept>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Volunteering";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "A theme covering data relating to volunteers and volunteering.";
+   <http://www.w3.org/2004/02/skos/core#definition> "A theme covering data relating to volunteers and volunteering.";
+   <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.gmdsp.org.uk/def/concept-scheme/themes>;
+   <http://www.w3.org/2004/02/skos/core#notation> "volunteering";
+   <http://www.w3.org/2004/02/skos/core#prefLabel> "Volunteering";
+   <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.gmdsp.org.uk/def/concept-scheme/themes> .
+   
 <http://data.gmdsp.org.uk/def/concept/themes/fire-and-rescue> a <http://data.gmdsp.org.uk/def/Theme>,
      <http://www.w3.org/2004/02/skos/core#Concept>;
    <http://www.w3.org/2000/01/rdf-schema#label> "Fire and Rescue";
@@ -125,4 +135,5 @@
      <http://data.gmdsp.org.uk/def/concept/themes/street-lighting>,
      <http://data.gmdsp.org.uk/def/concept/themes/recycling>, 
      <http://data.gmdsp.org.uk/def/concept/themes/libraries>,
+     <http://data.gmdsp.org.uk/def/concept/themes/volunteering>,
      <http://data.gmdsp.org.uk/def/concept/themes/fire-and-rescue> .
