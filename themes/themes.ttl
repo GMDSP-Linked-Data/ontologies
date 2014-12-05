@@ -135,6 +135,5 @@
      <http://data.gmdsp.org.uk/def/concept/themes/street-lighting>,
      <http://data.gmdsp.org.uk/def/concept/themes/recycling>, 
      <http://data.gmdsp.org.uk/def/concept/themes/libraries>,
-     <http://data.gmdsp.org.uk/def/concept/themes/street-libraries>,
      <http://data.gmdsp.org.uk/def/concept/themes/volunteering>,
      <http://data.gmdsp.org.uk/def/concept/themes/fire-and-rescue> .
