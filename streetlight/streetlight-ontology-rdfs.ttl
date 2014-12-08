@@ -14,7 +14,7 @@
 streetlighting:Streetlight
       rdfs:label "Streetlight"^^xsd:string ;
       rdf:type skos:Concept ;
-      skos: altLabel: "Street lamps"^^xsd:string ;
+      skos:altLabel: "Street lamps"^^xsd:string ;
       rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/streetlighting> .
 
 
