@@ -14,7 +14,11 @@
 streetlighting:Streetlight
       rdfs:label "Streetlight"^^xsd:string ;
       rdf:type skos:Concept ;
-      skos:altLabel: "Street lamps"^^xsd:string ;
+      skos:altLabel: "Street lamp"^^xsd:string ;
+      skos:altLabel: "Lamp post"^^xsd:string ;
+      skos:altLabel: "Street light"^^xsd:string ;
+      skos:altLabel: "Municipal lighting"^^xsd:string ;
+      rdf:about <http://id.esd.org.uk/subject/1404> ;
       rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/streetlighting> .
 
 
@@ -27,21 +31,28 @@ streetlighting:Streetlight
 streetlighting:wattage
       rdf:type rdf:Property ;
       rdfs:label "Wattage"^^xsd:string ;
-	  rdfs:comment "How much power in watts does the streetlight use" ;
+	  rdfs:comment "The power usage of the streetlight, measured in in watts." ;
       rdfs:domain streetlighting:Streetlight ;
       rdfs:range qudt:Watt .
 
 streetlighting:lampType
       rdf:type rdf:Property ;
       rdfs:label "Lamp type"^^xsd:string ;
-	  rdfs:comment "What is the lamp type for this streetlight" ;
+	  rdfs:comment "The lamp type for this streetlight" ;
+      rdfs:domain streetlighting:Streetlight ;
+      rdfs:range xsd:string .
+
+streetlighting:columnType
+      rdf:type rdf:Property ;
+      rdfs:label "Column type"^^xsd:string ;
+	  rdfs:comment "The column type for this streetlight" ;
       rdfs:domain streetlighting:Streetlight ;
       rdfs:range xsd:string .
 
 streetlighting:columnHeight
       rdf:type rdf:Property ;
       rdfs:label "Streetlight height"^^xsd:string ;
-	  rdfs:comment "How high the streetlight is ie. What height the lamp is off the ground." ;
+	  rdfs:comment "The height the lamp when measured from the ground." ;
       rdfs:domain streetlighting:Streetlight ;
       rdfs:range qudt:Meter .
 
