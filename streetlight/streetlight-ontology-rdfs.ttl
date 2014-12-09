@@ -52,7 +52,7 @@ streetlighting:columnType
 streetlighting:columnHeight
       rdf:type rdf:Property ;
       rdfs:label "Streetlight height"^^xsd:string ;
-	  rdfs:comment "The height the lamp when measured from the ground." ;
+	  rdfs:comment "The height the streetlight when measured from the ground." ;
       rdfs:domain streetlighting:Streetlight ;
       rdfs:range qudt:Meter .
 
@@ -60,5 +60,19 @@ streetlighting:manufacturer
       rdf:type rdf:Property ;
       rdfs:label "Streetlight manufacturer"^^xsd:string ;
 	  rdfs:comment "Which company or individual manufactured the streetlight." ;
+      rdfs:domain streetlighting:Streetlight ;
+      rdfs:range xsd:string .
+
+streetlighting:hasSiteCode
+      rdf:type rdf:Property ;
+      rdfs:label "Site code"^^xsd:string ;
+	  rdfs:comment "The code assigned to site to the streetlight." ;
+      rdfs:domain streetlighting:Streetlight ;
+      rdfs:range xsd:string .
+
+streetlighting:hasPlotNumber
+      rdf:type rdf:Property ;
+      rdfs:label "Plot Number"^^xsd:string ;
+	  rdfs:comment "The plot number assigned to site to the streetlight." ;
       rdfs:domain streetlighting:Streetlight ;
       rdfs:range xsd:string .
