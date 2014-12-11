@@ -96,7 +96,7 @@ streetlighting:eligibleSupply
       rdfs:label "Eligible Supply"^^xsd:string ;
 	  rdfs:comment "Has the streetlight eligible supply?" ;
       rdfs:domain streetlighting:Streetlight ;
-      rdfs:range xsd:boolean .
+      rdfs:range xsd:string .
 
 streetlighting:hasSiteCode
       rdf:type rdf:Property ;
