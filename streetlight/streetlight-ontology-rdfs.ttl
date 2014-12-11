@@ -63,6 +63,41 @@ streetlighting:manufacturer
       rdfs:domain streetlighting:Streetlight ;
       rdfs:range xsd:string .
 
+streetlighting:columnManufacturer
+      rdf:type rdf:Property ;
+      rdfs:label "Streetlight column manufacturer"^^xsd:string ;
+	  rdfs:comment "Which company or individual manufactured the column of the streetlight." ;
+      rdfs:domain streetlighting:Streetlight ;
+      rdfs:range xsd:string .
+
+streetlighting:lanternManufacturer
+      rdf:type rdf:Property ;
+      rdfs:label "Streetlight lantern manufacturer"^^xsd:string ;
+	  rdfs:comment "Which company or individual manufactured the lantern of the streetlight." ;
+      rdfs:domain streetlighting:Streetlight ;
+      rdfs:range xsd:string .
+
+streetlighting:condition
+      rdf:type rdf:Property ;
+      rdfs:label "Streetlight condition"^^xsd:string ;
+	  rdfs:comment "The condition of the streetlight,  Level 1 is very good.  Level 5 - not used." ;
+      rdfs:domain streetlighting:Streetlight ;
+      rdfs:range xsd:string .
+
+streetlighting:dimmingClassification
+      rdf:type rdf:Property ;
+      rdfs:label "Streetlight dimming classification"^^xsd:string ;
+	  rdfs:comment "The level to which the streetlight is dimmed." ;
+      rdfs:domain streetlighting:Streetlight ;
+      rdfs:range xsd:string .
+
+streetlighting:eligibleSupply
+      rdf:type rdf:Property ;
+      rdfs:label "Eligible Supply"^^xsd:string ;
+	  rdfs:comment "Has the streetlight eligible supply?" ;
+      rdfs:domain streetlighting:Streetlight ;
+      rdfs:range xs:boolean .
+
 streetlighting:hasSiteCode
       rdf:type rdf:Property ;
       rdfs:label "Site code"^^xsd:string ;
