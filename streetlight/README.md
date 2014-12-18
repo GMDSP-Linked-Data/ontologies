@@ -1,5 +1,5 @@
 GMDSP Streetlighting ontology
-..............................
+-------------------------------
 
 The GMDSP Streetlighting ontolology was written to ensure characteristics of the supplied data could be described.
 
