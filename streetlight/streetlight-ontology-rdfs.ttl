@@ -111,3 +111,10 @@ streetlighting:hasPlotNumber
 	  rdfs:comment "The plot number assigned to site to the streetlight." ;
       rdfs:domain streetlighting:Streetlight ;
       rdfs:range xsd:string .
+
+streetlighting:serviceRoute
+      rdf:type rdf:Property ;
+      rdfs:label "Plot Number"^^xsd:string ;
+	  rdfs:comment "The service route that covers the streetlight." ;
+      rdfs:domain streetlighting:Streetlight ;
+      rdfs:range xsd:string .
