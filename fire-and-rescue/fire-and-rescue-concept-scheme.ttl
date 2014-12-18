@@ -18,7 +18,7 @@
         a skos:Concept ;
         rdfs:label "Completed" ;
         skos:prefLabel "Completed" ;
-        skos:definition "Road Completed" .
+        skos:definition "Completed" .
 
 <http://data.gmdsp.org.uk/def/fire-and-rescue/hsc-outcome/refused> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/hsc-outcome> ;
         a skos:Concept ;
@@ -26,13 +26,94 @@
         skos:prefLabel "Refused" ;
         skos:definition "Refused" .
 
-
-###########################
+#########################
 # incidentType
+# #######################
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/> a skos:ConceptScheme ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/chimney-fire> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/error> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/false-alarm-good-intent> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/false-alarm-malicious> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/miscellaneous> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/primary-fire> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/secondary-fire> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/spec-serv-emergency> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/uwfs-fada> .
+ 
+ <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/chimney-fire> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+	a skos:Concept ;
+	rdfs:label "Chimney fire" ;
+	skos:prefLabel "Chimney fire" ;
+	skos:definition "Chimney fire" .
+	
+ <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/error> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+	a skos:Concept ;
+	rdfs:label "Error" ;
+	skos:prefLabel "Error" ;
+	skos:definition "Error" .	 
+	
+ <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/false-alarm-good-intent> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+	a skos:Concept ;
+	rdfs:label "False alarm: Good intent" ;
+	skos:prefLabel "False alarm: Good intent" ;
+	skos:definition "False alarm: Good intent" .	
+	
+ <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/false-alarm-malicious> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+	a skos:Concept ;
+	rdfs:label "False alarm: Malicious" ;
+	skos:prefLabel "False alarm: Malicious" ;
+	skos:definition "False alarm: Malicious" .	
+	
+ <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/miscellaneous> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+	a skos:Concept ;
+	rdfs:label "Miscellaneous" ;
+	skos:prefLabel "Miscellaneous" ;
+	skos:definition "Miscellaneous" .	
+	
+ <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/primary-fire> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+	a skos:Concept ;
+	rdfs:label "Primary fire" ;
+	skos:prefLabel "Primary fire" ;
+	skos:definition "Primary fire" .
+	
+ <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/secondary-fire> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+	a skos:Concept ;
+	rdfs:label "Secondary fire" ;
+	skos:prefLabel "Secondary fire" ;
+	skos:definition "Secondary fire" .
+	
+ <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/spec-serv-emergency> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+	a skos:Concept ;
+	rdfs:label "Special service emergency" ;
+	skos:prefLabel "Special service emergency" ;
+	skos:definition "Special service emergency" .
+
+ <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/uwfs-fada> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> ;
+	a skos:Concept ;
+	rdfs:label "Unwanted fire signals / Fire alarm due to faulty apparatus" ;
+	skos:prefLabel "Unwanted fire signals / Fire alarm due to faulty apparatus" ;
+	skos:definition "Unwanted fire signals / Fire alarm due to faulty apparatus" .							 	  
+
+#########################
+# initialIncidentType
+# #######################
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/initial-incident-type> a skos:ConceptScheme ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/initial-incident-type/f07-light-vehicle-> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/initial-incident-type/f07-light-vehicle-> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/initial-incident-type> ;
+	a skos:Concept ;
+	rdfs:label "F07 light vehicle" ;
+	skos:prefLabel "F07 light vehicle" ;
+	skos:definition "F07 light vehicle" .
+
+###########################
+# finalIncidentType
 ###########################
 
-<http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type> a skos:ConceptScheme ;
-        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/primary-fire> ;
+<http://data.gmdsp.org.uk/def/fire-and-rescue/finalincident-type> a skos:ConceptScheme ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/primary-fire-> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/false-alarm-good-intent> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/spec-serv-emergency> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/secondary-fire> ;
@@ -41,6 +122,61 @@
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/error> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/chimney-fire> ;
         skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/miscellaneous> .
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/primary-fire-> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/finalincident-type> ;
+	a skos:Concept ;
+	rdfs:label "Primary Fire" ;
+	skos:prefLabel "Primary Fire" ;
+	skos:definition "Primary Fire" .    
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/false-alarm-good-intent> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/finalincident-type> ;
+	a skos:Concept ;
+	rdfs:label "False Alarm: Good Intent" ;
+	skos:prefLabel "False Alarm: Good Intent" ;
+	skos:definition "False Alarm: Good Intent" .   
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/spec-serv-emergency> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/finalincident-type> ;
+	a skos:Concept ;
+	rdfs:label "Special Service Emergency" ;
+	skos:prefLabel "Special Service Emergency" ;
+	skos:definition "Special Service Emergency" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/secondary-fire> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/finalincident-type> ;
+	a skos:Concept ;
+	rdfs:label "Secondary Fire" ;
+	skos:prefLabel "Secondary Fire" ;
+	skos:definition "Secondary Fire" .
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/uwfsfada> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/finalincident-type> ;
+	a skos:Concept ;
+	rdfs:label "UWFSFADA" ;
+	skos:prefLabel "UWFSFADA" ;
+	skos:definition "UWFSFADA" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/false-alarm-malicious> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/finalincident-type> ;
+	a skos:Concept ;
+	rdfs:label "False Alarm: Malicious" ;
+	skos:prefLabel "False Alarm: Malicious" ;
+	skos:definition "False Alarm: Malicious" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/error> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/finalincident-type> ;
+	a skos:Concept ;
+	rdfs:label "Error" ;
+	skos:prefLabel "Error" ;
+	skos:definition "Error" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/chimney-fire> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/finalincident-type> ;
+	a skos:Concept ;
+	rdfs:label "Chimney Fire" ;
+	skos:prefLabel "Chimney Fire" ;
+	skos:definition "Chimney Fire" .	
+	
+<http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/miscellaneous> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/finalincident-type> ;
+	a skos:Concept ;
+	rdfs:label "Miscellaneous" ;
+	skos:prefLabel "Miscellaneous" ;
+	skos:definition "Miscellaneous" .						 	     
+	    
 
 ###########################
 # primaryFireLocationOrigin
@@ -390,19 +526,6 @@
 	rdfs:label "Common Room/Staff Room/Day Room" ;
 	skos:prefLabel "Common Room/Staff Room/Day Room" ;
 	skos:definition "Common Room/Staff Room/Day Room" .		
-	
-#########################
-# initialIncidentType
-# #######################
-
-<http://data.gmdsp.org.uk/def/fire-and-rescue/initial-incident-type> a skos:ConceptScheme ;
-        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/initial-incident-type/f07-light-vehicle-> .
-
-<http://data.gmdsp.org.uk/def/fire-and-rescue/initial-incident-type/f07-light-vehicle-> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/initial-incident-type> ;
-	a skos:Concept ;
-	rdfs:label "F07 light vehicle" ;
-	skos:prefLabel "F07 light vehicle" ;
-	skos:definition "F07 light vehicle" .
 
 
 #########################
@@ -417,6 +540,40 @@
 	rdfs:label "Fire" ;
 	skos:prefLabel "Fire" ;
 	skos:definition "Fire" .
+	
+#########################
+# classification
+#########################
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/classification> a skos:ConceptScheme ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-classificationchimney> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-classificationnon-fire> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-classificationprimary> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-classificationsecondary> .
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-classificationchimney> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/classification> ;
+        a skos:Concept ;
+        rdfs:label "Chimney" ;
+        skos:prefLabel "Chimney" ;
+        skos:definition "Chimney" .
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-classificationnon-fire> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/classification> ;
+        a skos:Concept ;
+        rdfs:label "Non-Fire" ;
+        skos:prefLabel "Non-Fire" ;
+        skos:definition "Non-Fire" . 
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-classificationprimary> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/classification> ;
+        a skos:Concept ;
+        rdfs:label "Primary" ;
+        skos:prefLabel "Primary" ;
+        skos:definition "Primary" .    
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-classificationsecondary> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/classification> ;
+        a skos:Concept ;
+        rdfs:label "Secondary" ;
+        skos:prefLabel "Secondary" ;
+        skos:definition "Secondary" .                    
 
 #########################
 # propertyCategory
@@ -443,6 +600,158 @@
        rdfs:label "Naked flame, lighted paper or card or other naked flame" ;
        skos:prefLabel "Naked flame, lighted paper or card or other naked flame" ;
        skos:definition "Naked flame, lighted paper or card or other naked flame" .
+    
+#######################
+# ignitionSourcePower
+#######################
+     
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source-power> a skos:ConceptScheme ;
+        skos:hasTopConcept   <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source-power/not-applicable> ;
+        skos:hasTopConcept   <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source-power/electric> ;
+        skos:hasTopConcept   <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source-power/gas-cylinder> ;
+        skos:hasTopConcept   <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source-power/gas-mains> ;
+        skos:hasTopConcept   <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source-power/not-known> ;   
+        skos:hasTopConcept   <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source-power/other> .  
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source-power/not-applicable> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source-power> ;
+        a skos:Concept ;
+        rdfs:label "Not Applicable" ;
+        skos:prefLabel "Not Applicable" ;
+        skos:definition "Not Applicable" .
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source-power/electric> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source-power> ;
+        a skos:Concept ;
+        rdfs:label "Electric" ;
+        skos:prefLabel "Electric" ;
+        skos:definition "Electric" .  
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source-power/gas-cylinder> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source-power> ;
+        a skos:Concept ;
+        rdfs:label "Gas: Cylinder" ;
+        skos:prefLabel "Gas: Cylinder" ;
+        skos:definition "Gas: Cylinder" .  
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source-power/gas-mains> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source-power> ;
+        a skos:Concept ;
+        rdfs:label "Gas: Mains" ;
+        skos:prefLabel "Gas: Mains" ;
+        skos:definition "Gas: Mains" .   
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source-power/not-known> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source-power> ;
+        a skos:Concept ;
+        rdfs:label "Not Known" ;
+        skos:prefLabel "Not Known" ;
+        skos:definition "Not Known" .     
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source-power/other> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-ignition-source-power> ;
+        a skos:Concept ;
+        rdfs:label "Other" ;
+        skos:prefLabel "Other" ;
+        skos:definition "Other" .  
+        
+#######################
+# mostLikelyCause
+#######################        
+            
+<http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-cause> a skos:ConceptScheme ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-cause/accidental> ;  
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-cause/deliberate-others-property> ;                                    
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-cause/deliberate-own-property> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-cause/deliberate-unknown-owner> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-cause/not-known> .
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-cause/accidental> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-cause> ;
+        a skos:Concept ;
+        rdfs:label "Accidental" ;
+        skos:prefLabel "Accidental" ;
+        skos:definition "Accidental" .         
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-cause/deliberate-others-property> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-cause> ;
+        a skos:Concept ;
+        rdfs:label "Deliberate: Others Property" ;
+        skos:prefLabel "Deliberate: Others Property" ;
+        skos:definition "Deliberate: Others Property" .
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-cause/deliberate-own-property> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-cause> ;
+        a skos:Concept ;
+        rdfs:label "Deliberate: Own Property" ;
+        skos:prefLabel "Deliberate: Own Property" ;
+        skos:definition "Deliberate: Own Property" .                   
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-cause/deliberate-unknown-owner> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-cause> ;
+        a skos:Concept ;
+        rdfs:label "Deliberate: Unknown Owner" ;
+        skos:prefLabel "Deliberate: Unknown Owner" ;
+        skos:definition "Deliberate: Unknown Owner" .  
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-cause/not-known> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-cause> ;
+        a skos:Concept ;
+        rdfs:label "Not Known" ;
+        skos:prefLabel "Not Known" ;
+        skos:definition "Not Known" .               
+         
+#######################
+# mostLikelyCausedBy
+#######################  
+       
+<http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by> a skos:ConceptScheme ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by/adult-18-64> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by/animal> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by/child-0-9> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by/elderly-65-plus> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by/not-known> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by/other> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by/person-age-not-known> ;
+        skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by/youth-10-17> .
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by/adult-18-64> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by> ;
+        a skos:Concept ;
+        rdfs:label "Adult (18-64)" ;
+        skos:prefLabel "Adult (18-64)" ;
+        skos:definition "Adult (18-64)" . 
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by/animal> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by> ;
+        a skos:Concept ;
+        rdfs:label "Animal" ;
+        skos:prefLabel "Animal" ;
+        skos:definition "Animal" .   
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by/child-0-9> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by> ;
+        a skos:Concept ;
+        rdfs:label "Child (0-9)" ;
+        skos:prefLabel "Child (0-9)" ;
+        skos:definition "Child (0-9)" . 
+          
+<http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by/elderly-65-plus> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by> ;
+        a skos:Concept ;
+        rdfs:label "Elderly (65+)" ;
+        skos:prefLabel "Elderly (65+)" ;
+        skos:definition "Elderly (65+)" .
+       
+<http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by/not-known> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by> ;
+        a skos:Concept ;
+        rdfs:label "Not Known" ;
+        skos:prefLabel "Not Known" ;
+        skos:definition "Not Known" . 
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by/other> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by> ;
+        a skos:Concept ;
+        rdfs:label "Other" ;
+        skos:prefLabel "Other" ;
+        skos:definition "Other" . 
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by/person-age-not-known> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by> ;
+        a skos:Concept ;
+        rdfs:label "Person: Age Not Known" ;
+        skos:prefLabel "Person: Age Not Known" ;
+        skos:definition "Person: Age Not Known" .
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by/youth-10-17> skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/most-likely-caused-by> ;
+        a skos:Concept ;
+        rdfs:label "Youth (10-17)" ;
+        skos:prefLabel "Youth (10-17)" ;
+        skos:definition "Youth (10-17)" .                                                             
+      
        
 #######################
 # firstIgnited
@@ -764,4 +1073,143 @@ skos:hasTopConcept <http://data.gmdsp.org.uk/def/fire-and-rescue/fire-first-igni
         a skos:Concept ;
         rdfs:label "Explosives, Gas, Chemicals: Fireworks" ;
         skos:prefLabel "Explosives, Gas, Chemicals: Fireworks" ;
-        skos:definition "Explosives, Gas, Chemicals: Fireworks" .                                                                                                                                
+        skos:definition "Explosives, Gas, Chemicals: Fireworks" .      
+        
+#########################
+# extentOfDamage
+#########################
+
+        <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> a skos:ConceptScheme ;
+skos:hasTopConcept  <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/affecting-more-than-two-floors-not-whole-building> ;
+skos:hasTopConcept  <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/driver-passenger-compartment> ;       
+skos:hasTopConcept  <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/engine-compartment> ;                                                                                                                                  
+skos:hasTopConcept  <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/external-roof-only> ;
+skos:hasTopConcept  <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/fuel-tank> ;
+skos:hasTopConcept  <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/limited-to-two-floors-not-whole-building> ;
+skos:hasTopConcept  <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/limited-to-floor-of-origin-not-whole-building> ;
+skos:hasTopConcept  <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/limited-to-first-item-ignited> ;
+skos:hasTopConcept  <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/limited-to-room-of-origin> ;
+skos:hasTopConcept  <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/na> ;
+skos:hasTopConcept  <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/roof-space-and-other-floors> ;
+skos:hasTopConcept  <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/roof-roof-rack-exterior-to-vehicle> ;
+skos:hasTopConcept  <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/separate-luggage-compartment-of-vehicle> ;
+skos:hasTopConcept  <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/single-carriage> ;
+skos:hasTopConcept  <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/wheels-tyres-brakes-axles-bearings> ;
+skos:hasTopConcept  <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/whole-boat> ;
+skos:hasTopConcept  <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/whole-building> ;
+skos:hasTopConcept  <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/whole-roof-including-roof-space> ;
+skos:hasTopConcept  <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/whole-vehicle> .
+
+<http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/affecting-more-than-two-floors-not-whole-building>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> ;
+        a skos:Concept ;
+        rdfs:label "Affecting more than two floors. Not the whole building" ;
+        skos:prefLabel "Affecting more than two floors. Not the whole building" ;
+        skos:definition "Affecting more than two floors. Not the whole building" .
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/driver-passenger-compartment>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> ;
+        a skos:Concept ;
+        rdfs:label "Driver passenger compartment" ;
+        skos:prefLabel "Driver passenger compartment" ;
+        skos:definition "Driver passenger compartment" .    
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/engine-compartment>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> ;
+        a skos:Concept ;
+        rdfs:label "Engine compartment" ;
+        skos:prefLabel "Engine compartment" ;
+        skos:definition "Engine compartment" .       
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/external-roof-only>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> ;
+        a skos:Concept ;
+        rdfs:label "External roof only" ;
+        skos:prefLabel "External roof only" ;
+        skos:definition "External roof only" .     
+         
+<http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/fuel-tank>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> ;
+        a skos:Concept ;
+        rdfs:label "Fuel tank" ;
+        skos:prefLabel "Fuel tank" ;
+        skos:definition "Fuel tank" .  
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/limited-to-two-floors-not-whole-building>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> ;
+        a skos:Concept ;
+        rdfs:label "Limited to two floors. Not whole building" ;
+        skos:prefLabel "Limited to two floors. Not whole building" ;
+        skos:definition "Limited to two floors. Not whole building" .  
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/limited-to-floor-of-origin-not-whole-building>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> ;
+        a skos:Concept ;
+        rdfs:label "Limited to floor of origin. Not whole building" ;
+        skos:prefLabel "Limited to floor of origin. Not whole building" ;
+        skos:definition "Limited to floor of origin. Not whole building" .
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/limited-to-first-item-ignited>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> ;
+        a skos:Concept ;
+        rdfs:label "Limited to first item ignited. Not whole building" ;
+        skos:prefLabel "Limited to first item ignited. Not whole building" ;
+        skos:definition "Limited to first item ignited. Not whole building" .    
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/limited-to-room-of-origin>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> ;
+        a skos:Concept ;
+        rdfs:label "Limited to room of origin" ;
+        skos:prefLabel "Limited to room of origin" ;
+        skos:definition "Limited to room of origin" .   
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/na>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> ;
+        a skos:Concept ;
+        rdfs:label "N/A" ;
+        skos:prefLabel "N/A" ;
+        skos:definition "N/A" .   
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/roof-space-and-other-floors>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> ;
+        a skos:Concept ;
+        rdfs:label "Roof space and other floors" ;
+        skos:prefLabel "Roof space and other floors" ;
+        skos:definition "Roof space and other floors" .  
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/roof-roof-rack-exterior-to-vehicle>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> ;
+        a skos:Concept ;
+        rdfs:label "Roof rack/Exterior to vehicle" ;
+        skos:prefLabel "Roof rack/Exterior to vehicle" ;
+        skos:definition "Roof rack/Exterior to vehicle" .      
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/separate-luggage-compartment-of-vehicle>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> ;
+        a skos:Concept ;
+        rdfs:label "Separate luggage compartment of vehicle" ;
+        skos:prefLabel "Separate luggage compartment of vehicle" ;
+        skos:definition "Separate luggage compartment of vehicle" .  
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/single-carriage>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> ;
+        a skos:Concept ;
+        rdfs:label "Single carriage" ;
+        skos:prefLabel "Single carriage" ;
+        skos:definition "Single carriage" .      
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/wheels-tyres-brakes-axles-bearings>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> ;
+        a skos:Concept ;
+        rdfs:label "Wheels, tyres, brakes, axles and bearings" ;
+        skos:prefLabel "Wheels, tyres, brakes, axles and bearings" ;
+        skos:definition "Wheels, tyres, brakes, axles and bearings" .   
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/whole-boat>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> ;
+        a skos:Concept ;
+        rdfs:label "Whole boat" ;
+        skos:prefLabel "Whole boat" ;
+        skos:definition "Whole boat" .     
+              
+<http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/whole-building>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> ;
+        a skos:Concept ;
+        rdfs:label "Whole building" ;
+        skos:prefLabel "Whole building" ;
+        skos:definition "Whole building" . 
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/whole-roof-including-roof-space>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> ;
+        a skos:Concept ;
+        rdfs:label "Whole roof, including roof space" ;
+        skos:prefLabel "Whole roof, including roof space" ;
+        skos:definition "Whole roof, including roof space" . 
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage/whole-vehicle>  skos:inScheme <http://data.gmdsp.org.uk/def/fire-and-rescue/extent-of-damage> ;
+        a skos:Concept ;
+        rdfs:label "Whole vehicle" ;
+        skos:prefLabel "Whole vehicle" ;
+        skos:definition "Whole vehicle" .                                                                                                                               

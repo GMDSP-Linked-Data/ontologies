@@ -68,7 +68,7 @@
 
 <http://data.gmdsp.org.uk/def/fire-and-rescue/incidentStartTime>
         a     rdf:Property ;
-        rdfs:comment  "When were the fire and rescue service alerted about the incident" ;
+        rdfs:comment  "When the fire and rescue service were alerted about the incident" ;
         rdfs:domain   <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
         rdfs:label    "Incident start time"^^xsd:string ;
         rdfs:range    sem:hasBeginTimeStamp .
@@ -77,7 +77,7 @@
         a     rdf:Property ;
         rdfs:comment  "When were the fire and rescue service alerted about the incident" ;
         rdfs:domain   <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
-        rdfs:label    "Incident start time"^^xsd:string ;
+        rdfs:label    "Incident type"^^xsd:string ;
         rdfs:range    <http://data.gmdsp.org.uk/def/fire-and-rescue/incident-type/> .
 
 <http://data.gmdsp.org.uk/def/fire-and-rescue/incidentLocation>
@@ -100,6 +100,14 @@
         rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
         rdfs:label   "Initial incident type" ;
         rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/initial-incident-type> .
+        
+<http://data.gmdsp.org.uk/def/fire-and-rescue/finalIncidentType>
+        a     rdf:Property;
+        rdfs:Comment "The final type for a fire and rescue incident" ;
+        rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
+        rdfs:label   "Final incident type" ;
+        rdfs:range   <http://data.gmdsp.org.uk/def/fire-and-rescue/finalincident-type> .
+        
 
 <http://data.gmdsp.org.uk/def/fire-and-rescue/numberOfPumpsMobilisedBeforeStop>
         a     rdf:Property;
@@ -108,7 +116,7 @@
         rdfs:label   "Number of pumps mobilised before stop" ;
         rdfs:range   xsd:integer .
 
-<http://data.gmdsp.org.uk/def/fire-and-rescue/incidentCategory>
+<http://data.gmdsp.org.uk/def/fire-and-rescue/IncidentCategory>       
         a     rdf:Property;
         rdfs:Comment "The incident category" ;
         rdfs:domain  <http://data.gmdsp.org.uk/def/fire-and-rescue/Incident> ;
