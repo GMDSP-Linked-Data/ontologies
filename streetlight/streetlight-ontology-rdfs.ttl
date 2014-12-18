@@ -38,42 +38,42 @@ streetlighting:wattage
 streetlighting:lampType
       rdf:type rdf:Property ;
       rdfs:label "Lamp type"^^xsd:string ;
-	  rdfs:comment "The lamp type for this streetlight" ;
+	  rdfs:comment "The lamp type for the streetlight." ;
       rdfs:domain streetlighting:Streetlight ;
       rdfs:range xsd:string .
 
 streetlighting:columnType
       rdf:type rdf:Property ;
       rdfs:label "Column type"^^xsd:string ;
-	  rdfs:comment "The column type for this streetlight" ;
+	  rdfs:comment "The column type for the streetlight." ;
       rdfs:domain streetlighting:Streetlight ;
       rdfs:range xsd:string .
 
 streetlighting:columnHeight
       rdf:type rdf:Property ;
       rdfs:label "Streetlight height"^^xsd:string ;
-	  rdfs:comment "The height the streetlight when measured from the ground." ;
+	  rdfs:comment "The height of the streetlight when measured from the ground." ;
       rdfs:domain streetlighting:Streetlight ;
       rdfs:range qudt:Meter .
 
 streetlighting:manufacturer
       rdf:type rdf:Property ;
       rdfs:label "Streetlight manufacturer"^^xsd:string ;
-	  rdfs:comment "Which company or individual manufactured the streetlight." ;
+	  rdfs:comment "The company or individual that manufacture the streetlight." ;
       rdfs:domain streetlighting:Streetlight ;
       rdfs:range xsd:string .
 
 streetlighting:columnManufacturer
       rdf:type rdf:Property ;
       rdfs:label "Streetlight column manufacturer"^^xsd:string ;
-	  rdfs:comment "Which company or individual manufactured the column of the streetlight." ;
+	  rdfs:comment "The company or individual that manufactured the column of the streetlight." ;
       rdfs:domain streetlighting:Streetlight ;
       rdfs:range xsd:string .
 
 streetlighting:lanternManufacturer
       rdf:type rdf:Property ;
       rdfs:label "Streetlight lantern manufacturer"^^xsd:string ;
-	  rdfs:comment "Which company or individual manufactured the lantern of the streetlight." ;
+	  rdfs:comment "The company or individual that manufactured the lantern of the streetlight." ;
       rdfs:domain streetlighting:Streetlight ;
       rdfs:range xsd:string .
 
