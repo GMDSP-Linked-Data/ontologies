@@ -104,3 +104,24 @@ parking:parkingType
         	rdfs:comment "The type of parking site eg. pay and display"^^xsd:string ;
       	rdfs:domain parking:ParkingSite ;
  	rdfs:range xsd:string .
+
+parking:barrierType
+        rdf:type rdf:Property ;
+        rdfs:label "Barrier type"^^xsd:string ;
+        	rdfs:comment "The type of barrier at the parking site."^^xsd:string ;
+      	rdfs:domain parking:ParkingSite ;
+ 	rdfs:range xsd:string .
+ 	
+ parking:chargingCategory
+        rdf:type rdf:Property ;
+        rdfs:label "Charging category type"^^xsd:string ;
+        	rdfs:comment "The charging category in operation at the parking site."^^xsd:string ;
+      	rdfs:domain parking:ParkingSite ;
+ 	rdfs:range xsd:string .	
+  	
+ parking:heightRestriction
+        rdf:type rdf:Property ;
+        rdfs:label "Height restriction"^^xsd:string ;
+        	rdfs:comment "The height restriction in operation at the parking site."^^xsd:string ;
+      	rdfs:domain parking:ParkingSite ;
+ 	rdfs:range xsd:string .		
