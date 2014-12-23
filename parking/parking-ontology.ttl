@@ -1,7 +1,8 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix smartcity: <http://data.smartcityconceptmodel.com/model#> .
+@prefix schema <schema="http://schema.org/>
+@prefix org: <http://www.w3.org/ns/org#> .
 
 #################################################################
 #
@@ -11,12 +12,12 @@
 
 <http://data.gmdsp.org.uk/def/council/parking/ParkingSite>
       rdfs:label "Parking site"^^xsd:string ;
-      rdfs:subClassOf smartcity:Object ;
+      rdfs:subClassOf schema:ParkingFacility ;
       rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/parking> .
 
 <http://data.gmdsp.org.uk/def/council/parking/ParkingSiteOperator>
       rdfs:label "Parking site operator"^^xsd:string ;
-      rdfs:subClassOf smartcity:Object ;
+      rdfs:subClassOf org:Organization ;
       rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/parking> .
 
 #################################################################
