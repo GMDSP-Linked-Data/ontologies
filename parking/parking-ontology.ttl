@@ -1,7 +1,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema <schema="http://schema.org/>
+@prefix schema <http://schema.org/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 
 #################################################################
@@ -85,7 +85,7 @@
 <http://data.gmdsp.org.uk/def/council/parking/totalNumberOfCCTVCameras>
       rdf:type rdf:Property ;
       rdfs:label "Total number of spaces"^^xsd:string ;
-      rdfs:comment "The total number of CCTV cameras in a particular car park" ;
+      	rdfs:comment "The total number of CCTV cameras in a particular car park" ;
       rdfs:domain <http://data.gmdsp.org.uk/def/council/parking/ParkingSite> ;
       rdfs:range xsd:integer ;
       rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/parking> .
@@ -93,24 +93,24 @@
 <http://data.gmdsp.org.uk/def/council/parking/electricVehicleChargingPoint>
       rdf:type rdf:Property ;
       rdfs:label "Electric vehicle charging point"^^xsd:string ;
-      rdfs:comment "Does the car park have charging points for electric vehicles?" ;
+	      rdfs:comment "Does the car park have charging points for electric vehicles?" ;
       rdfs:domain <http://data.gmdsp.org.uk/def/council/parking/ParkingSite> ;
       rdfs:range xsd:string ;
       rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/parking> .
       
 <http://data.gmdsp.org.uk/def/council/parking/informationPage>
-        a                   rdf:Property ;
-        rdfs:comment        "Page (given by URL) with information for this parking site."^^xsd:string ;
-        rdfs:domain         <http://data.gmdsp.org.uk/def/council/parking/ParkingSite> ;
-        rdfs:label          "Information page"^^xsd:string ;
+        rdf:type rdf:Property ;
+        rdfs:label "Information page"^^xsd:string ;
+        rdfs:comment "Page (given by URL) with information for this parking site."^^xsd:string ;
+        rdfs:domain <http://data.gmdsp.org.uk/def/council/parking/ParkingSite> ;
         rdfs:subPropertyOf  <http://xmlns.com/foaf/0.1/page> ;
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/parking> .
 
 <http://data.gmdsp.org.uk/def/council/parking/parkingType>
-        a                   rdf:Property ;
-        rdfs:comment        "What type of parking is the site eg. pay and display"^^xsd:string ;
-        rdfs:domain         <http://data.gmdsp.org.uk/def/council/parking/ParkingSite> ;
-        rdfs:label          "Parking type"^^xsd:string ;
+        rdf:type rdf:Property ;
+        rdfs:label "Parking type"^^xsd:string ;
+        rdfs:comment "The type of parking site eg. pay and display"^^xsd:string ;
+        rdfs:domain <http://data.gmdsp.org.uk/def/council/parking/ParkingSite> ;
         rdfs:subPropertyOf  <http://xmlns.com/foaf/0.1/page> ;
         rdfs:range <http://data.gmdsp.org.uk/council/parking/parking-type> ;
         rdfs:isDefinedBy <http://data.gmdsp.org.uk/def/council/parking> .
