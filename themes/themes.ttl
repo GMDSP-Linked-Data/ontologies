@@ -59,6 +59,16 @@
    <http://www.w3.org/2004/02/skos/core#prefLabel> "Planning";
    <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.gmdsp.org.uk/def/concept-scheme/themes> .
 
+<http://data.gmdsp.org.uk/def/concept/themes/planning> a <http://data.gmdsp.org.uk/def/Theme>,
+     <http://www.w3.org/2004/02/skos/core#Concept>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Housing";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "A theme covering data relating to housing.";
+   <http://www.w3.org/2004/02/skos/core#definition> "A theme covering data relating to housing.";
+   <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.gmdsp.org.uk/def/concept-scheme/themes>;
+   <http://www.w3.org/2004/02/skos/core#notation> "housing";
+   <http://www.w3.org/2004/02/skos/core#prefLabel> "Housing";
+   <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.gmdsp.org.uk/def/concept-scheme/themes> .
+   
 <http://data.gmdsp.org.uk/def/concept/themes/recycling> a <http://data.gmdsp.org.uk/def/Theme>,
      <http://www.w3.org/2004/02/skos/core#Concept>;
    <http://www.w3.org/2000/01/rdf-schema#label> "Recycling";
@@ -136,4 +146,5 @@
      <http://data.gmdsp.org.uk/def/concept/themes/recycling>, 
      <http://data.gmdsp.org.uk/def/concept/themes/libraries>,
      <http://data.gmdsp.org.uk/def/concept/themes/volunteering>,
+     <http://data.gmdsp.org.uk/def/concept/themes/housing>,     
      <http://data.gmdsp.org.uk/def/concept/themes/fire-and-rescue> .
