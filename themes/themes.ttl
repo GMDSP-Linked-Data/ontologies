@@ -59,7 +59,7 @@
    <http://www.w3.org/2004/02/skos/core#prefLabel> "Planning";
    <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://data.gmdsp.org.uk/def/concept-scheme/themes> .
 
-<http://data.gmdsp.org.uk/def/concept/themes/planning> a <http://data.gmdsp.org.uk/def/Theme>,
+<http://data.gmdsp.org.uk/def/concept/themes/housing> a <http://data.gmdsp.org.uk/def/Theme>,
      <http://www.w3.org/2004/02/skos/core#Concept>;
    <http://www.w3.org/2000/01/rdf-schema#label> "Housing";
    <http://www.w3.org/2000/01/rdf-schema#comment> "A theme covering data relating to housing.";
@@ -133,7 +133,7 @@
    <http://www.w3.org/2000/01/rdf-schema#label> "GMDSP Themes concept scheme";
    <http://purl.org/dc/terms/title> "GMDSP Themes concept scheme";
    <http://purl.org/dc/terms/created> "2014-03-21"^^<http://www.w3.org/2001/XMLSchema#date>;
-   <http://purl.org/dc/terms/modified> "2014-03-24"^^<http://www.w3.org/2001/XMLSchema#date>;
+   <http://purl.org/dc/terms/modified> "2015-02-14"^^<http://www.w3.org/2001/XMLSchema#date>;
    <http://www.w3.org/2000/01/rdf-schema#comment> "This concept scheme defines a list of themes, used to categorise the datasets in the linked data created as part of the Greater Manchester Data Synchronisation Project.";
    <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://data.gmdsp.org.uk/def/concept/themes/parking>,
      <http://data.gmdsp.org.uk/def/concept/themes/council-tax>,
